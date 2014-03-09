@@ -1,0 +1,16 @@
+<div class="container">
+   <div class="row">
+     <div class="span12 search">
+       <h3>Express Search</h3>
+       <p>Please enter your express number to search.</p>
+
+       <%= form_tag "/search", method: :get,  remote: true do %>
+         <%= text_field_tag(:q) %>
+         <%= submit_tag "Search", class: "btn" %>
+       <% end %>
+
+       <div id="success-message"></div>
+       <div id="error-message" class="alert alert-error" style="display:none"></div>
+     </div>
+   </div>
+</div>

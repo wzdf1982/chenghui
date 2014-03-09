@@ -1,0 +1,12 @@
+<table id="queryResult" class="result-info>
+   <tbody>
+      <%= @records.each do |r| %>
+         <tr>
+           <td class="row1"><%= r.time %></td>
+           <td class="status"></td>
+           <td><%= r.context %></td>
+         </tr>
+      <% end %>     
+   </tbody>
+</table>
+

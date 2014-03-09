@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: MyString
+  mainland_express: MyString
+  express_number: MyString
+  mainland_delivery_place: MyString
+
+two:
+  number: MyString
+  mainland_express: MyString
+  express_number: MyString
+  mainland_delivery_place: MyString

@@ -1,0 +1,7 @@
+<% if @order %>
+  $('#error-message').hide()
+  $('#success-message').html("<%= escape_javascript(render(@order)) %>")
+<% else %>
+  $('#success-message').html("")
+  $('#error-message').show().html('this no such order found')
+<% end %>

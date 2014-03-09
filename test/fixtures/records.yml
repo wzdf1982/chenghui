@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2014-03-08 11:22:33
+  context: MyString
+  order_id: 1
+
+two:
+  time: 2014-03-08 11:22:33
+  context: MyString
+  order_id: 1
