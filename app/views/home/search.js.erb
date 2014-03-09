@@ -3,5 +3,5 @@
   $('#success-message').html("<%= escape_javascript(render(@order)) %>")
 <% else %>
   $('#success-message').html("")
-  $('#error-message').show().html('this no such order found')
+  $('#error-message').show().html('快递单号不存在！')
 <% end %>

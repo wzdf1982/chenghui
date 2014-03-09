@@ -1,12 +1,12 @@
-<table id="queryResult" class="result-info>
+<table id="queryResult" class="result-info">
    <tbody>
-      <%= @records.each do |r| %>
+      <% @order.records.each do |r| %>
          <tr>
-           <td class="row1"><%= r.time %></td>
+           <td class="row1"><%= r.time.strftime("%Y-%m-%d %H:%M:%S") %></td>
            <td class="status"></td>
            <td><%= r.context %></td>
          </tr>
-      <% end %>     
+      <% end %>
    </tbody>
 </table>
 

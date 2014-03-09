@@ -1,8 +1,8 @@
 <div class="container">
    <div class="row">
      <div class="span12 search">
-       <h3>Express Search</h3>
-       <p>Please enter your express number to search.</p>
+       <h3>订单查询</h3>
+       <p>请输入你的订单号码.</p>
 
        <%= form_tag "/search", method: :get,  remote: true do %>
          <%= text_field_tag(:q) %>

@@ -6,6 +6,5 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 order = {number: 'HK040208A001', mainland_express: 'yuantong', express_number: '12345678', mainland_delivery_place: 'shanghai' }
-Order.create(order)
-
-
+r = Order.create(order)
+Record.create({time: Time.now,  context:'sdfdfsf', order: r})

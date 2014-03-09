@@ -129,3 +129,27 @@ a:hover { text-decoration: none; }
   margin-right: auto;
   text-align: left;
 }
+
+
+/*查询结果框*/
+.result-info {
+  width:560px;
+  border:1px solid #90bfff;
+  margin: 0 auto;
+}
+.result-info td{padding:10px;color:#878787;border-bottom:1px solid #d8d8d8 !important;background-color:#fbfbfb !important}
+.result-info .status{width:30px;background:url("http://cdn.kuaidi100.com/images/ico_status.gif") -50px center no-repeat #fbfbfb}
+.result-info .status{width:30px;background:url("http://cdn.kuaidi100.com/images/ico_status.gif") -50px center no-repeat #fbfbfb}
+.result-info .status-first{background:url("http://cdn.kuaidi100.com/images/ico_status.gif") 0px center no-repeat #fbfbfb}
+.result-info .status-check{background:url("http://cdn.kuaidi100.com/images/ico_status.gif") -150px center no-repeat #fbfbfb}
+.result-info .status-wait{background:url("http://cdn.kuaidi100.com/images/ico_status.gif") -100px center no-repeat #fbfbfb}
+.result-info .last td{color:#FF8c00;border-bottom:none;background-color:#ffffff !important}
+.result-info .row1{width:140px;text-align:right;}
+
+.ctrl-btn-1,.ctrl-btn-2,.ctrl-btn-3{display:block;margin-bottom:18px;width:32px;height:30px}
+.ctrl-btn-1{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -126px no-repeat}
+a.ctrl-btn-1:hover{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -256px no-repeat}
+.ctrl-btn-2{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -176px no-repeat}
+a.ctrl-btn-2:hover{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -216px no-repeat}
+.ctrl-btn-3{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -146px no-repeat}
+a.ctrl-btn-3:hover{background:url("http://cdn.kuaidi100.com/images/ico_header.png") 0px -276px no-repeat}
